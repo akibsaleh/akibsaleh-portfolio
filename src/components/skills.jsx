@@ -360,7 +360,7 @@ const Skills = () => {
                     <LiaLaptopCodeSolid className="text-3xl" /> {getData(personalData, 'personal').personal.title}
                   </h4>
                 </div>
-                <div className="grid grid-cols-2 gap-y-3 gap-x-10 w-full">
+                <div className="grid grid-cols-3 gap-y-3 gap-x-10 w-full">
                   {getData(personalData, 'personal').personal.data?.map((item, index) => {
                     return (
                       <div

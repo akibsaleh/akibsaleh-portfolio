@@ -9,10 +9,10 @@ import { RiBriefcase4Fill, RiTeamFill, RiTodoFill, RiArrowDownSLine } from 'reac
 
 import DevImg from './DevImg';
 import Badge from './Badge';
-import Socials from './Socials';
 import useScrollProgress from '@/hooks/useScrollProgress';
 import akibpp from '@/components/assets/akibpp.png';
 import Image from 'next/image';
+import Socials from './Socials';
 const yesevaOne = Yeseva_One({
   subsets: ['latin'],
   weight: ['400'],
@@ -77,7 +77,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:flex absolute left-2/4 bottom-0 xl:bottom-12 animate-bounce">
+        <div className="hidden md:flex absolute left-2/4 bottom-0 xl:bottom-24 animate-bounce">
           <RiArrowDownSLine className="text-3xl text-primary" />
         </div>
       </div>
